@@ -29,7 +29,7 @@ const key = new NodeRSA(publicKey, "pkcs8-public", {
 });
 
 const api = {
-  login: "https://changjiang.yuketang.cn/pc/login/verify_pwd_login/",
+  login: "https://changjiang.yuketang.cn/web",
   getOnLessonData:
     "https://changjiang.yuketang.cn/v/course_meta/on_lesson_courses",
   attendLesson: "https://changjiang.yuketang.cn/v/lesson/lesson_info_v2",
